@@ -17,20 +17,20 @@ A modern Android weather application built with **Kotlin** and **Jetpack Compose
 ---
 ## 📷 Screenshots
 
-### Main Screen (Light)
-![Main UI Light](assets/main_ui_light.png)
+<p align="center">
+  <img src="assets/main_ui_light.png" width="300"/>
+  <img src="assets/main_ui_dark.png" width="300"/>
+</p>
 
-### Main Screen (Dark)
-![Main UI Dark](assets/main_ui_dark.png)
+<p align="center">
+  <img src="assets/daily_card.png" width="300"/>
+  <img src="assets/menu.png" width="300"/>
+</p>
 
-### Daily Forecast
-![Daily Card](assets/daily_card.png)
+<p align="center">
+  <img src="assets/search.png" width="300"/>
+</p>
 
-### Menu Drawer
-![Menu](assets/menu.png)
-
-### Search Location
-![Search Location](assets/search.png)
 
 ---
 
