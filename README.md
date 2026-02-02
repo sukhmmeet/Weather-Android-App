@@ -53,7 +53,7 @@ Jetpack Compose UI
     Repository
         ↓
    Remote APIs
-
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -66,7 +66,7 @@ Jetpack Compose UI
 
 ```bash
 git clone https://github.com/your-username/Weather-Android.git
-
+```
 ## Run the App
 
 1. Open the project in Android Studio  
@@ -84,6 +84,7 @@ object ApiConfig {
     const val WEATHER_BASE_URL = "YOUR_WEATHER_API_URL"
     const val GEOCODING_BASE_URL = "YOUR_GEOCODING_API_URL"
 }
+```
 ## 🎯 Future Improvements
 
 - Save favorite locations  
