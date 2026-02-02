@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- background -->
+    <item android:drawable="@drawable/bg_logo" />
+
+    <!-- app logo (adaptive foreground) -->
+    <item>
+        <inset
+            android:drawable="@drawable/foreground_logo"
+            android:inset="72dp" />
+    </item>
+
+</layer-list>
