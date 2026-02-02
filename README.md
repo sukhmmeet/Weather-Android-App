@@ -25,6 +25,7 @@ A modern Android weather application built with **Kotlin** and **Jetpack Compose
 - **Networking:** Retrofit / OkHttp  
 
 ### APIs Used
+
 - **Geocoding API** – for searching locations and resolving addresses  
 - **Weather API** – for current, hourly, and daily weather data  
 
@@ -32,13 +33,13 @@ A modern Android weather application built with **Kotlin** and **Jetpack Compose
 
 ## 📊 Weather Data Includes
 
-- Temperature (current, min, max, feels-like)
-- Sunrise & Sunset
-- Daylight duration
-- Precipitation (probability & total)
-- UV Index (normal & clear sky)
-- Wind speed & gusts
-- Weather condition codes
+- Temperature (current, min, max, feels-like)  
+- Sunrise & Sunset  
+- Daylight duration  
+- Precipitation (probability & total)  
+- UV Index (normal & clear sky)  
+- Wind speed & gusts  
+- Weather condition codes  
 
 ---
 
@@ -53,60 +54,60 @@ Jetpack Compose UI
         ↓
    Remote APIs
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
 
-Android Studio (latest recommended)
+### Prerequisites
 
-Android device or emulator
+- Android Studio (latest recommended)  
+- Android device or emulator  
+- Internet connection  
 
-Internet connection
+### Clone the Repository
 
-Clone the Repository
+```bash
 git clone https://github.com/your-username/Weather-Android.git
 
-Run the App
+## Run the App
 
-Open the project in Android Studio
+1. Open the project in Android Studio  
+2. Sync Gradle  
+3. Run on emulator or physical device  
 
-Sync Gradle
+---
 
-Run on emulator or physical device
-
-🔐 API Configuration
+## 🔐 API Configuration
 
 Create a config file for API setup:
 
+```kotlin
 object ApiConfig {
     const val WEATHER_BASE_URL = "YOUR_WEATHER_API_URL"
     const val GEOCODING_BASE_URL = "YOUR_GEOCODING_API_URL"
 }
+## 🎯 Future Improvements
 
+- Save favorite locations  
+- Weather alerts & notifications  
+- Offline caching  
+- Animations & transitions  
+- Home screen widgets  
 
-⚠️ Do not commit API keys to public repositories.
+---
 
-🎯 Future Improvements
+## 🤝 Contributing
 
-Save favorite locations
-
-Weather alerts & notifications
-
-Offline caching
-
-Animations & transitions
-
-Home screen widgets
-
-🤝 Contributing
-
-Contributions are welcome.
+Contributions are welcome.  
 Fork the repository and submit a pull request.
 
-📄 License
+---
 
-This project is licensed under the MIT License.
+## 📄 License
 
-👨‍💻 Author
+This project is licensed under the MIT License.  
 
-Sukhmeet Singh Dhaliwal
+---
+
+## 👨‍💻 Author
+
+Sukhmeet Singh Dhaliwal  
 Android Developer | Kotlin | Jetpack Compose
