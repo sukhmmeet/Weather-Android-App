@@ -15,6 +15,24 @@ A modern Android weather application built with **Kotlin** and **Jetpack Compose
 - 🎨 Modern UI built with Jetpack Compose  
 
 ---
+## 📷 Screenshots
+
+### Main Screen (Light)
+![Main UI Light](assets/main_ui_light.png)
+
+### Main Screen (Dark)
+![Main UI Dark](assets/main_ui_dark.png)
+
+### Daily Forecast
+![Daily Card](assets/daily_card.png)
+
+### Menu Drawer
+![Menu](assets/menu.png)
+
+### Search Location
+![Search Location](assets/search.png)
+
+---
 
 ## 🛠️ Tech Stack
 
