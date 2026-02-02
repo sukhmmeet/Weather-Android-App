@@ -21,9 +21,6 @@ A modern Android weather application built with **Kotlin** and **Jetpack Compose
   <img src="assets/main_ui_light.png" width="150"/>
   <img src="assets/main_ui_dark.png" width="150"/>
   <img src="assets/daily_card.png" width="150"/>
-</p>
-
-<p align="center">
   <img src="assets/menu.png" width="150"/>
   <img src="assets/search.png" width="150"/>
 </p>
