@@ -1,10 +1,11 @@
 package com.weather.OpenMetro
 
+import com.weather.ApiConfig
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object WeatherApiObject {
-    private const val baseUrl = "https://api.open-meteo.com/v1/"
+    private const val baseUrl = ApiConfig.WEATHER_BASE_URL
     val api : WeatherApiInterface by lazy {
         Retrofit
             .Builder()

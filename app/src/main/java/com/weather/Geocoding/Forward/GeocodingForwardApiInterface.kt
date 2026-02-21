@@ -9,6 +9,6 @@ interface GeocodingForwardApiInterface {
     @GET("search")
     suspend fun getSuggestions(
         @Query("q") search: String,
-        @Query("api_key") apiKey: String = "69778063dfba5384447009lcd7f7213"
+        @Query("api_key") apiKey: String = "YOUR_SECRET_API_KEY"
     ): List<ForwardGeocoding>
 }
