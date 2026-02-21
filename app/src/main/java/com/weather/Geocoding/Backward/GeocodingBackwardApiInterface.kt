@@ -1,5 +1,6 @@
 package com.weather.Geocoding.Backward
 
+import com.weather.API_KEYS
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -10,6 +11,6 @@ interface GeocodingBackwardApiInterface {
     suspend fun getAddress(
         @Query("lat") latitude : String,
         @Query("lon") longitude : String,
-        @Query("api_key") apiKey : String = "YOUR_SECRET_API_KEY"
+        @Query("api_key") apiKey : String = API_KEYS.GEOCODING_API_KEY
     ) : BackwardGeocoding
 }

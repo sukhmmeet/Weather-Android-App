@@ -1,15 +1,28 @@
-*.iml
+# Gradle
 .gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
-/captures
+
+# Local config
+local.properties
+
+# IDE
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Mac
+.DS_Store
+
+# NDK
 .externalNativeBuild
 .cxx
-local.properties
+
+# Captures
+/captures
+
+# Secrets
+app/src/main/java/com/weather/API_KEYS.kt
