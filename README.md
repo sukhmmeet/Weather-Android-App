@@ -77,7 +77,7 @@ Jetpack Compose UI
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/sukhmmeet/Weather-Android-App
+git clone https://github.com/sukhmmeet/Weather-Android-App.git
 ```
 ## Run the App
 
