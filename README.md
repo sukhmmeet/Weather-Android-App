@@ -97,13 +97,7 @@ object ApiConfig {
     const val GEOCODING_BASE_URL = "https://geocode.maps.co/"
 }
 ```
-## 🎯 Future Improvements
 
-- Save favorite locations  
-- Weather alerts & notifications  
-- Offline caching  
-- Animations & transitions  
-- Home screen widgets  
 
 ---
 
